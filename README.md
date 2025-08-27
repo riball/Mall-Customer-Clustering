@@ -1,12 +1,12 @@
 
 
-## 📌 Project Overview
+##  Project Overview
 
 This project performs **Exploratory Data Analysis (EDA)** on the **Mall Customers dataset** to understand customer behavior. The dataset contains customer demographic and spending information. By analyzing variables such as **Annual Income** and **Spending Score**, we aim to identify potential customer segments that can help in targeted marketing strategies.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 * **Source**: Public Kaggle dataset – *Mall Customers*
 * **Columns**:
@@ -19,7 +19,7 @@ This project performs **Exploratory Data Analysis (EDA)** on the **Mall Customer
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 * Checked dataset info and null values
 * Explored distributions of categorical & numerical features
@@ -39,7 +39,7 @@ sns.scatterplot(data=mall_df, x='Annual Income (k$)', y='Spending Score (1-100)'
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 * Male and female customers are **almost equally represented**.
 * Spending behavior shows **clear clusters**, especially when plotting **Annual Income vs Spending Score**.
@@ -48,7 +48,7 @@ sns.scatterplot(data=mall_df, x='Annual Income (k$)', y='Spending Score (1-100)'
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 * Apply **Clustering (KMeans)** to form customer segments.
 * Explore **Age-based patterns** to refine segmentation.
@@ -56,7 +56,7 @@ sns.scatterplot(data=mall_df, x='Annual Income (k$)', y='Spending Score (1-100)'
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python 🐍
 * Pandas, NumPy (data handling)
@@ -65,7 +65,7 @@ sns.scatterplot(data=mall_df, x='Annual Income (k$)', y='Spending Score (1-100)'
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 📦 mall-customers-analysis
